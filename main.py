@@ -91,9 +91,6 @@ sentiment = tk.Text(root, height=1, width=140)
 sentiment.config(state='disabled', bg='#dddddd')
 sentiment.pack()
 
-
-
-
 root.mainloop()
 
 
