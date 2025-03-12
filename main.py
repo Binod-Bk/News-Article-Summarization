@@ -6,7 +6,6 @@ from newspaper import Article
 #pip install nltk
 #pip install textblob
 #pip install newspaper3k
-
 def summarize():
 
     url = urltext.get('1.0',"end").strip()
@@ -91,7 +90,3 @@ sentiment.config(state='disabled', bg='#dddddd')
 sentiment.pack()
 
 root.mainloop()
-
-
-
-
