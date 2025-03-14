@@ -54,7 +54,6 @@ ulabel.pack()
 urltext = tk.Text(root, height=1, width=140)
 urltext.pack()
 
-
 btn = tk.Button(root, text="Summarize", command=summarize)
 btn.pack()
 
@@ -69,7 +68,6 @@ alabel.pack()
 author = tk.Text(root, height=1, width=140)
 author.config(state='disabled', bg='#dddddd')
 author.pack()
-
 
 plabel = tk.Label(root, text="Published Date")
 plabel.pack()
