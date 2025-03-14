@@ -9,9 +9,7 @@ from newspaper import Article
 def summarize():
 
     url = urltext.get('1.0',"end").strip()
-
     article = Article(url)
-
     article.download()
     article.parse()
     article.nlp()
