@@ -32,7 +32,6 @@ def summarize():
     summary.delete('1.0', 'end')
     summary.insert('1.0', article.summary)
 
-
     analysis = TextBlob(article.text)
     sentiment.delete('1.0', 'end')
     sentiment.insert('1.0',f'Polarity: {analysis.polarity}, Sentiment: {"positive" if analysis.polarity > 0 else "negative" if analysis.polarity < 0 else "Neutral"}')
