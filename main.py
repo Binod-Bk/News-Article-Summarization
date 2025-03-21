@@ -72,16 +72,19 @@ publication = tk.Text(root, height=1, width=140)
 publication.config(state='disabled', bg='#dddddd')
 publication.pack()
 
+
 slabel = tk.Label(root, text="Summary")
 slabel.pack()
 summary = tk.Text(root, height=20, width=150)
 summary.config(state='disabled', bg='#dddddd')
 summary.pack()
 
+
 selabel = tk.Label(root, text="Sentiment Analysis")
 selabel.pack()
 sentiment = tk.Text(root, height=1, width=140)
 sentiment.config(state='disabled', bg='#dddddd')
 sentiment.pack()
+
 
 root.mainloop()
