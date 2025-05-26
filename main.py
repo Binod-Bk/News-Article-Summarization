@@ -20,6 +20,7 @@ def summarize():
     summary.config(state='normal')
     sentiment.config(state='normal')
 
+    
     title.delete('1.0', 'end')
     title.insert('1.0', article.title)
 
